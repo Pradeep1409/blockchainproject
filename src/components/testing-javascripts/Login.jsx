@@ -7,6 +7,7 @@ import Leaf from "../images/leaf.png"
 import { display } from '@mui/system';
 import "../stylesheets/slidercss.css";
 
+// const contractAddress = '0xaC748dA226932F4d181309AC8f91c3946ACD441b';
 const contractAddress = '0x9D66687E6Da2BC0A5444125A8fA389C3e96F1921';
 
 function LoginPage() {
@@ -134,7 +135,7 @@ function LoginPage() {
     >
       <div className='administrator-dashboard-requests-navbar' style={{ backgroundColor: "#FFFFFF", width: "100vw", marginBottom: "10vh", height: "10vh", display: "flex", flexDirection: "row", textAlign: "center", paddingLeft: "1vh", paddingTop: "1vh" }}>
         <ul style={{ listStyle: "none", display: "flex", flexDirection: "row" }}>
-          <li style={{ marginTop: "1vh" }}><button style={{ backgroundColor: "transparent", color: "black", fontWeight: "700", fontSize: "35px", marginTop: "0vh", paddingRight: "10vw", marginBottom: "5vh", height: "5vh" }}><Link style={{ color: 'black' }} to={`/`}>COMMUTE.IO</Link></button></li>
+          <li style={{ marginTop: "1vh" }}><button style={{ backgroundColor: "transparent", color: "black", fontWeight: "700", fontSize: "35px", marginTop: "0vh", paddingRight: "10vw", marginBottom: "5vh", height: "5vh" }}><Link style={{ color: 'black' }} to={`/`}>DRX</Link></button></li>
         </ul>
       </div>
       <div style={{ width: '85vw', display: 'flex', flexDirection: 'column', height: "70vh",marginTop:isAdmin?"7vh":"", boxShadow:"0 4px 8px rgba(0, 0, 0, 0.2)"}}>
