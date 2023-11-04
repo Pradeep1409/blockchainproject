@@ -58,7 +58,7 @@ const NavBar = () => {
   }}
   onMouseLeave={(e) => {
     e.target.style.color = 'white';
-  }}className="logo">COMMUTE.IO</a>
+  }}className="logo">DRX</a>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
@@ -71,9 +71,9 @@ const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://linktr.ee/team_commute_io_linkedin"><img src={navIcon1} alt="" /></a>
-                <a href="https://github.com/unmani-shinde/paused-P2P-carpooling.git/"><FaGithub style={{color:'white',transform:'scale(1.2)'}} className="github-icon"></FaGithub></a>
-                <a href="https://linktr.ee/team_commute_io_instagram"><img src={navIcon3} alt="" /></a>               
+                <a href="https://linktr.ee/abhishek7861"><img src={navIcon1} alt="" /></a>
+                <a href="https://github.com/Pradeep1409/blockchainproject.git"><FaGithub style={{color:'white',transform:'scale(1.2)'}} className="github-icon"></FaGithub></a>
+                            
               </div>
               
                 <button className="vvd" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} ><Link to={'/new-application-for-passenger'}><span style={{ color: isHovered ? 'black' : 'white' }}>Register</span></Link></button>
