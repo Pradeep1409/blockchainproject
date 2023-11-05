@@ -56,11 +56,11 @@ const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div style={{marginTop:'-13vh'}} className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline" style={{color:"white",marginTop:'2vh'}}>Carpooling with  a Conscious.</span>
-                <h1>{`Share a ride that is`} <span className="txt-rotate" dataPeriod="100" data-rotate='[ "safe."," economic.", " eco-friendly."]'><span className="wrap">{text}</span></span></h1>
-                <p style={{marginBottom:"2vh",fontSize:'x-large'}}>Escape the clutches of major ride-sharing companies that compromise your privacy.</p>
-                <p style={{fontSize:'x-large'}}>Embrace a secure and reliable carpooling system built on Ethereum. </p>
-                  <button style={{color:"white",marginLeft:'40vw',width:'20vw'}}onClick={() => console.log('connect')}>Visit our Blog <ArrowRightCircle style={{color:"white"}}size={25} /></button>
+                <span className="tagline" style={{color: "black",marginTop:'2vh'}}>Carpooling with  a Conscious.</span>
+                <h1 style={{ color: "aqua" }}>{`Share a ride that is`} <span className="txt-rotate" dataPeriod="100" data-rotate='[ "safe."," economic.", " eco-friendly."]'><span style={{color: "aqua"}}className="wrap">{text}</span></span></h1>
+                <p style={{color: "aqua",marginBottom:"2vh",fontSize:'x-large', }}>Escape the clutches of major ride-sharing companies that compromise your privacy.</p>
+                <p style={{fontSize:'x-large', color: "aqua"}}>Embrace a secure and reliable carpooling system built on Ethereum. </p>
+                  <button style={{color:"red",marginLeft:'40vw',width:'20vw'}}onClick={() => console.log('connect')}>Visit our Blog <ArrowRightCircle style={{color:"white"}}size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>

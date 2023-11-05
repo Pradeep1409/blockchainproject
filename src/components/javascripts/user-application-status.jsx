@@ -196,10 +196,10 @@ useEffect(() => {
     <div className='administrator-dashboard-requests-container' style={{backgroundColor:"#F1EEE5", marginTop:"1vh",marginLeft:"1vw",width:"98vw", height:"98vh", display:"flex", flexDirection:"column", border:"solid 1px black", borderRadius:"20px"}}>
         <div className='administrator-dashboard-requests-navbar' style={{backgroundColor:"#FFFFFF",width:"97.75vw", height:"10vh", display:"flex", flexDirection:"row", textAlign:"center", borderRadius:"20px 20px 0px 0px", paddingLeft:"1vh", paddingTop:"1vh"}}>
             <ul style={{listStyle:"none", display:"flex", flexDirection:"row"}}>
-                <li style={{marginTop:"1vh"}}><button style={{marginLeft:"0.5vw",backgroundColor:"transparent",color:"black", fontWeight:"700", fontSize:"40px", marginTop:"-1vh",paddingRight:"10vw",marginBottom:"5vh", height:"5vh"}}><a href='/' style={{border:"none",color:"black"}}>COMMUTE.IO</a></button></li>
+                <li style={{marginTop:"1vh"}}><button style={{marginLeft:"0.5vw",backgroundColor:"transparent",color:"black", fontWeight:"700", fontSize:"40px", marginTop:"-1vh",paddingRight:"10vw",marginBottom:"5vh", height:"5vh"}}><a href='/' style={{border:"none",color:"black"}}>DRX</a></button></li>
             </ul>
         </div><br></br>
-        <h2 style={{fontWeight:"700", fontSize:"xx-large",textAlign:'center',color:'black'}}>COMMUTE.IO VERIFICATION PORTAL</h2>
+        <h2 style={{fontWeight:"700", fontSize:"xx-large",textAlign:'center',color:'black'}}>DRX VERIFICATION PORTAL</h2>
         <h5 style={{fontWeight:"700",fontSize:"x-large",textAlign:'center',color:'black'}}>We're thrilled to have you here.</h5>
         
         {isOriginalSection && !isExistingApplication && !isFreshApplication && (

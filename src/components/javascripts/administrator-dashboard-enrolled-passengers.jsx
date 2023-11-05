@@ -11,6 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import { style } from '@mui/system';
 
+// const contractAddress = '0xaC748dA226932F4d181309AC8f91c3946ACD441b';
 const contractAddress = '0x9D66687E6Da2BC0A5444125A8fA389C3e96F1921';
 
 function AdministratorDashboardPassengers (){
@@ -73,7 +74,8 @@ function AdministratorDashboardPassengers (){
           // Get the contract instance
           const contract = new web3.eth.Contract(CommuteIOABI, contractAddress);
           setContract(contract);
-          if (accounts[0]=='0x6c03F36B57Ad95aeAC06ad1dD100da00d4936aF5'){
+          // if (accounts[0]=='0x6c03F36B57Ad95aeAC06ad1dD100da00d4936aF5'){
+          if (accounts[0]=='0xaC748dA226932F4d181309AC8f91c3946ACD441b'){
             setRoleAdmin(true);
           }
           // Load the passenger requests
@@ -235,7 +237,7 @@ function AdministratorDashboardPassengers (){
         <div className='administrator-dashboard-requests-container' style={{backgroundColor:"#F1EEE5", marginTop:"1vh",marginLeft:"1vw",width:"98vw", height:"98vh", display:"flex", flexDirection:"column", border:"solid 1px black", borderRadius:"20px"}}>
         <div className='administrator-dashboard-requests-navbar' style={{backgroundColor:"#FFFFFF",width:"97.75vw", height:"10vh", display:"flex", flexDirection:"row", textAlign:"center", borderRadius:"20px 20px 0px 0px", paddingLeft:"1vh", paddingTop:"1vh"}}>
              <ul style={{listStyle:"none", display:"flex", flexDirection:"row"}}>
-             <li style={{marginTop:"1vh"}}><button style={{backgroundColor:"transparent",color:"black", fontWeight:"700", fontSize:"35px", marginTop:"0vh",paddingRight:"10vw",marginBottom:"5vh", height:"5vh"}}><Link style={{color:'black'}}to={`/`}>COMMUTE.IO</Link></button></li>
+             <li style={{marginTop:"1vh"}}><button style={{backgroundColor:"transparent",color:"black", fontWeight:"700", fontSize:"35px", marginTop:"0vh",paddingRight:"10vw",marginBottom:"5vh", height:"5vh"}}><Link style={{color:'black'}}to={`/`}></Link></button></li>
              <li className='not-logo'><button onClick={handleClick1} className='administrator-dashboard-requests-navbar-buttons' style={{transition: '0.3s ease-in', borderBottom: clicked1?"4px solid #116D6E":"none"}}><Link style={{color:'#116D6E'}} to={`/passenger-requests`} className="passenger-requests">Request Records</Link></button></li>
                  <li className='not-logo'><button onClick={handleClick2} className='administrator-dashboard-requests-navbar-buttons' style={{transition: '0.3s ease-in', borderBottom: clicked2?"4px solid #116D6E":"none"}} ><Link style={{color:'#116D6E'}} to={`/enrolled-passengers`} className="enrolled-passengers">Enrolled Passengers</Link></button></li>
                  <li className='not-logo'><button onClick={handleClick3} className='administrator-dashboard-requests-navbar-buttons' style={{transition: '0.3s ease-in', borderBottom: clicked3?"4px solid #116D6E":"none"}}>Inbox</button></li>
