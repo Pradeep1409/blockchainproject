@@ -10,12 +10,7 @@ Smart Contracts: The platform can be powered by smart contracts, automatically e
 
 Data Privacy: User data is protected by the immutable and secure nature of blockchain technology, ensuring privacy and security.
 
-🔗Links
-GitHub Repository
-Demo Video
-Drive Link to Screenshots of your project
-Hosted Website Link
-Hosted Backend Link
+
 🤖Tech-Stack
 Front-end
 HTML/CSS
